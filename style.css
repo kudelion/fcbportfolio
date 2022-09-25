@@ -1,0 +1,81 @@
+/* 
+ Universal Selector (*)
+*/
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* tag/element selector(<tagname) 
+    Select a HTML element using tag name.
+*/
+
+h1, h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+/* id selector  #idName */
+
+#landing{
+
+    /* vh is viewport height, relative to viewing screen */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Class selector (.className) 
+    select elements thath belongs to a particuler class attribute.
+*/
+
+div .jumbotron{
+    background-color: transparent;
+}
+
+
+#gallery{
+
+    height:  100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+ul{
+    /* To remove the bullets of the UL */
+    list-style: none;
+    padding: 0%;
+}
+
+h2{
+
+    color: #007bff;
+}
+
+.tools{
+
+    color: antiquewhite;
+    height: 200px;
+    width: 75%;
+    border: 5px solid #f2f2f2;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 8px;
+
+}
+
+
